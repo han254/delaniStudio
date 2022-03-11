@@ -5,4 +5,24 @@
 }
 .section1 {
   background-image: url(../images/h_img.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  padding-top: 30px;
+  background-position: center center;
+}
+#logo {
+  margin-top: 200px;
+  margin-bottom: 45px;
+  height: 75px;
+}
+.section1 p {
+  margin-bottom: 140px;
+}
+#mouse {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
