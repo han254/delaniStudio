@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a project showing the landing page of a studio.
+This web application is showing the landing page of a studio which includes the services that the studio offers and a form where user's can send their inquiries about the studio.
 
 
 ### Author's Information
@@ -14,10 +14,10 @@ This is a project showing the landing page of a studio.
 -A student at Moringa school pursing Software development.
 
 ## Setup/Installation Requirements
-* Using your preffered browser(chrome)
-* clone my reository.
-* click the livelink.
-* You will see the studio landing page.
+* Open your terminal.
+* clone ```https://github.com/han254/delaniStudio.git```.
+* Enter into the folder (cd delaniStudio).
+* open your IDE (code . or atom .) 
 
 ## Known Bugs
 
