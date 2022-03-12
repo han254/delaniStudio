@@ -18,3 +18,14 @@ $(function () {
     $("#image-dev").slideDown("1000");
   });
 });
+
+$(function () {
+  $("#image-product").click(function () {
+    $("#image-product").slideDown("1000").hide("500");
+    $("#product").show("1000");
+  });
+  $("#product").click(function () {
+    $("#product").slideUp("1000");
+    $("#image-product").slideDown("1000");
+  });
+});
