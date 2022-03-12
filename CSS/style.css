@@ -120,6 +120,13 @@ div .port {
   background-color: transparent;
   margin-top: 40px;
 }
-.btn{
-background-color: blue;
+.btn {
+  background-color: blue;
+}
+.footer {
+  text-align: center;
+}
+.footer p {
+  font-size: 14px;
+  margin-top: 20px;
 }
