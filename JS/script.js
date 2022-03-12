@@ -45,6 +45,6 @@ function validateform() {
     alert("Kindly write your message");
     return false;
   } else {
-    alert("Thank you " + name + " your message has been received");
+    alert("Thank you " + name + " for contacting us, your message has been received");
   }
 }
