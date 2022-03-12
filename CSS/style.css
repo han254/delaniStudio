@@ -88,3 +88,10 @@ div .port {
   width: 100%;
 }
 
+.title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: "Roboto";
+  margin-top: 40px;
+}
