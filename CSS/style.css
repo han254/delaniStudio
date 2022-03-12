@@ -3,13 +3,6 @@
   padding: 0px;
   margin: 0px;
 }
-div .navbar-brand {
-  color: orange;
-  font-size: 30px;
-}
-div ul li .nav-item{
-    color:beige;
-}
 .section1 {
   background-image: url(../images/h_img.jpg);
   background-repeat: no-repeat;
@@ -35,7 +28,11 @@ div ul li .nav-item{
   animation: bounce 2s infinite;
 }
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -52,4 +49,76 @@ div ul li .nav-item{
   color: white;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.about-us {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.heading {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.what-we-do-section {
+  text-align: center;
+  font-size: 14px;
+}
+.subject {
+  font-weight: 500;
+  font-size: 20px;
+}
+div .port {
+  text-align: center;
+  margin: auto;
+  font-size: 26px;
+}
+.container-six {
+  height: 500px;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: "Roboto";
+  margin-top: 40px;
+}
+.contact {
+  background-image: url("../images/c_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+#inputName {
+  background-color: transparent;
+  width: 400px;
+}
+
+#inputEmail {
+  background-color: transparent;
+  width: 420px;
+}
+
+#inputMessage {
+  height: 200px;
+  width: 900px;
+  background-color: transparent;
+  margin-top: 40px;
+}
+.btn {
+  background-color: blue;
+}
+.footer {
+  text-align: center;
+}
+.footer p {
+  font-size: 14px;
+  margin-top: 20px;
 }
