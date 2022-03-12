@@ -77,3 +77,8 @@ div ul li .nav-item {
   font-weight: 500;
   font-size: 20px;
 }
+div .port {
+  text-align: center;
+  margin: auto;
+  font-size: 26px;
+}
