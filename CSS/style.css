@@ -103,3 +103,23 @@ div .port {
   height: 500px;
   width: 100%;
 }
+
+#inputName {
+  background-color: transparent;
+  width: 400px;
+}
+
+#inputEmail {
+  background-color: transparent;
+  width: 420px;
+}
+
+#inputMessage {
+  height: 200px;
+  width: 900px;
+  background-color: transparent;
+  margin-top: 40px;
+}
+.btn{
+background-color: blue;
+}
