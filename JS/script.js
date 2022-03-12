@@ -8,3 +8,13 @@ $(function () {
     $("#image-design").slideDown("1000");
   });
 });
+$(function () {
+  $("#image-dev").click(function () {
+    $("#image-dev").slideDown("1000").hide("500");
+    $("#development").show("1000");
+  });
+  $("#development").click(function () {
+    $("#development").slideUp("1000");
+    $("#image-dev").slideDown("1000");
+  });
+});
