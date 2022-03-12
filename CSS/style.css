@@ -3,13 +3,6 @@
   padding: 0px;
   margin: 0px;
 }
-div .navbar-brand {
-  color: orange;
-  font-size: 30px;
-}
-div ul li .nav-item {
-  color: beige;
-}
 .section1 {
   background-image: url(../images/h_img.jpg);
   background-repeat: no-repeat;
