@@ -32,8 +32,6 @@ div ul li .nav-item{
   padding-bottom: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
-<<<<<<< HEAD
-=======
   animation: bounce 2s infinite;
 }
 @keyframes bounce {
@@ -54,5 +52,10 @@ div ul li .nav-item{
   color: white;
   padding-top: 60px;
   padding-bottom: 60px;
->>>>>>> main
+}
+.about-us {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
