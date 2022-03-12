@@ -28,6 +28,41 @@ $(function () {
     $("#product").slideUp("1000");
     $("#image-product").slideDown("1000");
   });
+
+  $(function () {
+    $("#image1").hover(function () {
+      $("#image1").css("filter", "brightness(60%)");
+      $("#column1").toggle();
+    });
+    $("#image2").hover(function () {
+      $("#image2").css("filter", "brightness(60%)");
+      $("#column2").toggle();
+    });
+    $("#image3").hover(function () {
+      $("#image3").css("filter", "brightness(60%)");
+      $("#column3").toggle();
+    });
+    $("#image4").hover(function () {
+      $("#image4").css("filter", "brightness(60%)");
+      $("#column4").toggle();
+    });
+    $("#image5").hover(function () {
+      $("#image5").css("filter", "brightness(60%)");
+      $("#column5").toggle();
+    });
+    $("#image6").hover(function () {
+      $("#image6").css("filter", "brightness(60%)");
+      $("#column6").toggle();
+    });
+    $("#image7").hover(function () {
+      $("#image7").css("filter", "brightness(60%)");
+      $("#column7").toggle();
+    });
+    $("#image8").hover(function () {
+      $("#image8").css("filter", "brightness(60%)");
+      $("#column8").toggle();
+    });
+  });
 });
 
 function validateform() {
@@ -45,6 +80,8 @@ function validateform() {
     alert("Kindly write your message");
     return false;
   } else {
-    alert("Thank you " + name + " for contacting us, your message has been received");
+    alert(
+      "Thank you " + name + " for contacting us, your message has been received"
+    );
   }
 }
